@@ -10,7 +10,7 @@ pipeline {
     stage('stage2') {
       steps {
         echo 'for test'
-        date
+        sh 'date'
       }
     }
 
